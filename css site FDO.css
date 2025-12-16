@@ -15,7 +15,7 @@ body {
 .header-logo a { 
     text-decoration: none;
     color: rgb(38, 38, 255);
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     font-weight: bold;
 }
 
@@ -117,4 +117,5 @@ body {
     height: 2px;
     background-color: #7b57579b;   /* même couleur que tes bordures */
     margin: 30px auto;  /* espacement haut/bas + centrage */
+
 }
