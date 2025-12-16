@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #f1f1f1;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Logo */
+.header-logo {
+    padding: 10px 50px;
+}
+
+.header-logo a { 
+    text-decoration: none;
+    color: rgb(38, 38, 255);
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+
+/* Onglets */
+.nav-items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    gap: 40px; /* espace entre les items */
+}
+
+/* style des liens */
+.nav-item a {
+    text-decoration: none;
+    color: rgb(38, 38, 255);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+/* centrer la nav */
+.nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+/*banniere*/
+.image-container img {
+    width: 100%;      /* L'image prend toute la largeur de la page */
+    height: auto;     /* Empêche toute déformation */
+    display: block;   /* Retire les petits espaces sous l'image */
+}
+
+/*main*/
+
+.main-title{
+    padding: 0 px 20 px;
+    color: rgb(0, 0, 139);
+    display: flex;
+    font-size: 3rem;
+}
+
+.main-section {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 20px;
+    width: 98%;
+    margin: auto;
+    padding: 10px 0px;
+}
+
+/* --- ARTICLE 1 --- */
+.articles {
+    display: contents; /* permet aux enfants de se placer directement dans la grille */
+}
+
+.articles .article__img {
+    grid-column: 1 / 4;   /* image → colonnes 1 à 4 */
+}
+
+.articles .article__text {
+    grid-column: 4 / 7;   /* texte → colonnes 4 à 6 */
+}
+
+/* --- ARTICLE 2 --- */
+.articles-2 {
+    display: contents;
+}
+
+.articles-2 .article__text {
+    grid-column: 1 / 4;   /* texte → colonnes 1 à 4 */
+}
+
+.articles-2 .article__img {
+    grid-column: 4 / 7;   /* image → colonnes 4 à 6 */
+}
+
+/* Image qui prend toute sa colonne */
+.article__img img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.separator {
+    width: 98%;          /* alignée sur la même largeur que les sections */
+    height: 2px;
+    background-color: #7b57579b;   /* même couleur que tes bordures */
+    margin: 30px auto;  /* espacement haut/bas + centrage */
+}
+
+/* SECTION CENTRÉE */
+.rondes-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+/* cacher radios */
+.rondes-center input {
+    display: none;
+}
+
+/* ONGLET */
+.rondes-tabs {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.rondes-tabs label {
+    padding: 10px 20px;
+    background: #e0e0e0;
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.rondes-tabs label:hover {
+    background: #d0d0d0;
+}
+
+/* CONTENU */
+.rondes-media {
+    width: 70%;
+    max-width: 800px;
+}
+
+.rondes-media .bloc {
+    display: none;
+}
+
+.rondes-media video {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.rondes-media p {
+    font-size: 1rem;
+    color: #333;
+}
+
+/* ACTIF */
+#r1:checked ~ .rondes-tabs label[for="r1"],
+#r2:checked ~ .rondes-tabs label[for="r2"],
+#r3:checked ~ .rondes-tabs label[for="r3"],
+#r4:checked ~ .rondes-tabs label[for="r4"] {
+    background: rgb(38, 38, 255);
+    color: white;
+}
+
+/* AFFICHAGE */
+#r1:checked ~ .rondes-media .b1,
+#r2:checked ~ .rondes-media .b2,
+#r3:checked ~ .rondes-media .b3,
+#r4:checked ~ .rondes-media .b4 {
+    display: block;
+}
+
+.article__vid video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.articles-2 .article__vid {
+    grid-column: 4 / 7;   /* image → colonnes 4 à 6 */
+}
+
+.articles .article__vid {
+    grid-column: 1 / 4;   /* image → colonnes 1 à 4 */
+}
