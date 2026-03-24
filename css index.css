@@ -8,7 +8,31 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+<div id="blocker">
+  Veuillez tourner votre appareil en mode paysage pour continuer.
+</div>
 
+<style>
+  #blocker {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: #000;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 2rem;
+    text-align: center;
+    z-index: 9999;
+  }
+
+  @media (orientation: portrait) {
+    #blocker {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+</style>
 /* Logo */
 .header-logo {
     padding: 10px 50px;
