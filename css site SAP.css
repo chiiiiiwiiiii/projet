@@ -18,6 +18,20 @@ body {
   overscroll-behavior: none;
 }
 
+#orientation-lock {
+  position: fixed;
+  inset: 0;
+  background: #111;
+  color: #fff;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.8rem;
+  z-index: 9999;
+}
+
 /* HEADER */
 .header-logo {
   padding: 10px 50px;
