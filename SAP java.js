@@ -36,3 +36,17 @@ if (window.innerWidth < 900) {
     smoothScroll();
   }
 }
+
+function updateOrientationLock() {
+  const isPortrait = window.matchMedia("(orientation: portrait)").matches;
+  const lock = document.getElementById("orientation-lock");
+
+  lock.style.display = isPortrait ? "flex" : "none";
+}
+
+// Vérifie au chargement
+updateOrientationLock();
+
+// Vérifie à chaque changement d’orientation ou de taille
+window.addEventListener("resize", updateOrientationLock);
+window.addEventListener("orientationchange", updateOrientationLock);
