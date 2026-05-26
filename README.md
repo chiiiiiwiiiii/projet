@@ -1,5 +1,4 @@
-Pour ce site nous sommes une petite équipe de quatre jeunes lycéens ayant pour but de créer un site afin de montrer les gestes et connaissances acquis dans les diverses matières qui nous ont été enseignées. N’étant que de simples étudiants, il se peut que certains gestes ne soient pas réalisés correctement ou comportent des erreurs. Merci donc de revérifier les différents gestes via d’autres sources afin d’être sûrs que ceux‑ci sont corrects. Le codage fut entièrement écrit par moi‑même, tandis que les idées, les vidéos et les recherches furent effectuées par mes trois camarades. L’écriture des textes, elle, fut réalisée par chacun d’entre nous ; vous pourrez sans doute y déceler quelques petites habitudes d’écriture parmi celles énoncées. Nous vous souhaitons une bonne appréciation de ce site.Se site fut créé suite à notre cours de projet, qui nous demandait de créer quelque chose en rapport avec la sécurité. De nouvelles modifications pourront arriver de temps à autre afin de corriger de potentielles erreurs et d’embellir ce projet. Comme dit dans la section juste avant, nous ne sommes que des étudiants et nous n’affirmons en aucun cas que les gestes montrés soient 100 % corrects. Nous vous demandons donc de revérifier les gestes auprès d’autres sources fiables en cas de doute. Ce site a été imaginé, dans un premier temps, pour être utilisé sur ordinateur. Il se peut que certaines fonctionnalités soient retirées ou réimaginées pour l’adaptation sur téléphone, comme par exemple le fait que le site ne puisse être utilisé qu’en mode paysage.
-
+hello, je n'ai rien a ecrire dans ce doc donc rien de bien interessant... apres si besoins d'une info en particuliere, recherché dans les logs ou me demander directement, vous pouvez m'ajouté sur discord : @chhjvh 
 Je vais utiliser le read me en log car je n'ai rien de plus a ajouté.
 
 1.0 :
@@ -7,3 +6,6 @@ le 19/05/2026, mise en ligne du site pour les membres de la classe.
 
 1.0.1 :
 le 19/05/2026, correction de faute d'orthographe dans la page "index.htm" aka page d'acceuil.
+
+1.1 :
+Le 26/05/2026, correction complete des fautes, premiere presentation du projet.
